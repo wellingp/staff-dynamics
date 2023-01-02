@@ -1,0 +1,894 @@
+body{
+   font-size: 1.1rem;
+   align-content: center;
+   text-align: center;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+   font-size: 1.6em;
+   font-weight: 200;
+   font-family: 'Patua One', cursive;
+   color: #4c87de;
+}
+
+h3, h4, h5{
+   font-family: 'Source Serif Pro', serif;
+}
+
+h2{
+   font-size: 1.5em;
+}
+
+h3{
+   font-size: 1.4em;
+}
+
+h4{
+   font-size: 1.3em;
+}
+
+h5{
+   font-size: 1.2em;
+}
+
+h6{
+   font-size: 1.1em;
+}
+
+ul{
+   padding-left: 0;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(158, 158, 158);
+}
+
+a:visited{
+   color: rgb(63, 63, 63);
+}
+
+nav a{
+   color: #4b6076;
+}
+
+nav a:visited{
+   color: #4b6076;
+}
+
+nav a:hover{
+   color: #c0c7d2;
+}
+
+nav a:visited:hover{
+   color: #c0c7d2;
+}
+
+footer a{
+   color: #0A2038;
+}
+
+footer a:hover{
+   color: #bfd4f3;
+}
+
+footer a:visited{
+   color: #444444;
+}
+
+footer a:visited:hover{
+   color: #bfd4f3;
+}
+
+.active-nav{
+   color: #4c87de;
+   font-weight: bold;
+}
+
+.active-nav:visited{
+   color: #4c87de;
+}
+
+.active-nav:visited:hover{
+   color: #bfd4f3;
+}
+
+.active-nav:hover{
+   color: #bfd4f3;
+}
+
+button{
+   border-radius: 5px;
+   padding: 1% 2%;
+   margin-top: 1%;
+   background-color: rgba(255, 255, 255, 0.497);
+   color: #2f5389;
+   border: solid 1px #4c87de;
+   font-size: 1em;
+}
+
+button a{
+   color: #2f5389;
+}
+
+button a:visited{
+   color: #2f5389;
+}
+
+button:hover{
+   background-color: #4c86dec4;
+   color: #fff;
+}
+
+button visited:hover{
+   background-color: #4c86dec4;
+   color: #fff;
+}
+
+.container{
+   width: 100%;
+   margin: 0 auto;
+   align-items: center;
+}
+
+.img-fluid{
+   width: 40%;
+   height: auto;
+}
+
+.nav-bar{
+   background-color:#fff;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-shrink: 0;
+}
+
+#nav-pic-container{
+   padding-top: 15%;
+   padding-bottom: 10%;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.nav-h2-container{
+   padding: 1%;
+}
+
+.nav-h2{
+   background-color: #4c86dec4;
+   font-family: 'Source Serif Pro', serif;
+   font-weight: 200;
+   color: #fff;
+   width: 40%;
+   margin: 1.5%;
+   padding: 1%;
+   border-radius: 10px;
+}
+
+.row{
+   display: flex;
+}
+
+footer .row{
+   align-items: unset;
+}
+
+.left-pad{
+   padding-left: 3%;
+}
+
+.right-pad{
+   padding-right: 3%;
+}
+
+.top-pad{
+   padding-top: 3%;
+}
+
+.bottom-pad{
+   padding-bottom: 3%;
+}
+
+.left-align{
+   text-align: left;
+}
+
+.nav-link{
+   padding: 1%;
+}
+
+.nav-banner{
+   background-image: url('../images/main-banner.jpg');
+}
+
+.main-contact, footer{
+   padding-left: 3%;
+   padding-right: 3%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.main-contact, footer{
+   padding-top: 3%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+.main-about{
+   background-color: #fff;
+   background-image: url('../images/waves-bg.jpg');
+   background-attachment: fixed;
+   background-repeat: repeat;
+}
+
+.main-about button{
+   margin-bottom: 5%;
+}
+
+.main-about h3{
+   margin: 8% 0;
+}
+
+.main-about-content{
+   background-color: #f7eadf9c;
+}
+
+.main-services{
+   background-color: #fff;
+   background-image: url('../images/services-banner.png');
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 7% 3% 4% 3%;
+}
+
+.service-box{
+   background-color: #f7eadf;
+   opacity: 90%;
+   border-radius: 10px;
+   margin-bottom: 3%;
+   padding: 2% 0;
+}
+
+.service-box p{
+   margin: 4% 7%;
+}
+
+.service-box h4{
+   margin: 2% 2%;
+}
+
+.services-h3{
+   color: #000;
+   text-align: center;
+   padding: 1%;
+   margin: 0;
+   border-radius: 10px;
+}
+
+#services-title{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.main-contact, form{
+   background-color: #fff;
+}
+
+form{
+   margin: 7% auto 5% auto;
+   border-radius: 10px;
+   border: solid 1px rgb(227, 227, 227);
+}
+
+input, textarea, select{
+   margin: 1%;
+}
+
+input, select, textarea{
+   background-color: rgb(227, 227, 227);
+   color: rgb(106, 106, 106);
+   padding: 1%;
+   border: none;
+   border-radius: 10px;
+   font-size: 1em;
+   width: 90%;
+}
+
+input#name, input#email, select#service, textarea{
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+}
+
+textarea{
+   padding: 2%;
+   width: 90%;
+}
+
+label{
+   font-size: 0;
+   margin: 0;
+   padding: 0;
+}
+
+form button{
+   margin: 3% 0;
+   background-color: #4c87de;
+   color: #fff;
+   border: none;
+}
+
+form button:hover{
+   background-color: #30558c;
+   color: #fff;
+}
+
+footer{
+   background-color: #4c87de;
+   color: #0A2038;
+   margin-top: 3%;
+   font-weight: lighter;
+}
+
+footer h4{
+   margin-bottom: 0;
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   font-weight: lighter;
+}
+
+footer li{
+   list-style: inside;
+   list-style-type: none;
+}
+
+#back-to-top{
+   margin-top: 4%;
+   margin-bottom: 0;
+   text-decoration: underline;
+}
+
+.red-text{
+   color: red;
+   font-weight: bold;
+}
+
+iframe{
+   width: 60%;
+   margin: 5% auto;
+   height: 50%;
+}
+
+/*///////////////////////////////////MEDIA QUERIES///////////////////////////////////*/
+
+/***XTRA SMALL***/
+@media (min-width: 200px) {
+   
+   #nav-ul li{
+      display: block;
+   }
+
+   ul#nav-ul{
+      margin: 0 0 5% 0;
+   }
+
+   .nav-bar{
+      position: relative;
+   }
+
+   .nav-bar{
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .nav-banner{
+      background-position-x: center;
+      background-position-y: 38%;
+      background-size: 200%;
+      background-attachment: fixed;
+   }
+
+   .row{
+      display: block;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .img-fluid{
+      width: 100%;
+   }
+
+   .img-small{
+      width: 20%;
+      margin: 0 auto;
+   }
+
+   .main-services{
+      border-top: solid 2em #fff;
+   }
+
+   .main-about-content{
+      padding: 5%;
+   }
+
+   .main-contact p{
+      width: 100%;
+   }
+
+   .service-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      width: 100%;
+   }
+
+   .service-box h4{
+      font-size: 1.1em;
+   }
+
+   #services-title{
+      width: 100%;
+   }
+
+   #footer-ul li{
+      display: block;
+   }
+
+   body{
+      font-size: 1rem; 
+   }
+
+   footer{
+      font-size: 1em;
+   }
+   
+   footer h4{
+      font-size: 1em;
+   }   
+
+   h1{
+      font-size: 1.7rem;
+   }
+
+   h2{
+      font-size: 2.8rem;
+   }
+
+   #nav-ul li{
+      font-size: 1.1rem;
+   }
+
+   .nav-h2{
+      font-size: 1.5em;
+   }
+
+   h3{
+      font-size: 1.8rem;
+   }
+
+   form{
+      width: 100%;
+   }
+}
+
+/***SMALL***/
+@media (min-width: 576px) {
+
+   #nav-ul li{
+      display: block;
+   }
+
+   .nav-bar{
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .nav-banner{
+      background-position-x: center;
+      background-position-y: 38%;
+      background-size: 200%;
+      background-attachment: fixed;
+   }
+
+   .row{
+      display: block;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .img-fluid{
+      width: 100%;
+   }
+
+   .main-about-content{
+      padding: 5%;
+   }   
+
+   .service-boxes{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+   }
+
+   .service-box h4{
+      font-size: 1.1em;
+   }
+
+   #services-title{
+      width: 100%;
+   }
+
+   #footer-ul li{
+      display: block;
+   }
+
+   body{
+      font-size: 1rem; 
+   }
+
+   h1{
+      font-size: 1.7rem;
+   }
+
+   h2{
+      font-size: 2.8rem;
+   }
+
+   #nav-ul li{
+      font-size: 1.1rem;
+   }
+
+   .nav-h2{
+      font-size: 1.5em;
+   }
+
+   h3{
+      font-size: 1.8rem;
+   }
+
+   form{
+      width: 100%;
+   }
+}
+
+/***MEDIUM***/
+@media (min-width: 768px) {
+
+   #top-logo{
+      padding-left: 3%;
+   }
+
+   #nav-ul{
+      width: 37%;
+   }
+
+   #nav-ul li{
+      display: inline-flex;
+      padding-right: 3%;
+   }
+
+   ul#nav-ul{
+      margin: 0;
+   }
+
+   .nav-bar{
+      position: fixed;
+      top: 0;
+      z-index: 1;
+   }
+
+   .nav-bar{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .nav-banner{
+      background-position-x: center;
+      background-position-y: center;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+
+   .row{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+      width: 100%;
+   }
+   
+   .col{
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 0%;
+   }
+
+   .img-fluid{
+      width: 100%;
+   }
+
+   .img-small{
+      width: 10%;
+      margin: 0 auto;
+   }
+
+   .main-services{
+      border-top: solid 5em #ffffff;
+   }
+
+   .main-about-content{
+      padding: 5%;
+   }
+
+   .main-contact p{
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .service-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+   }
+
+   .service-box{
+      width: 30%;
+   }
+
+   .service-box h4{
+      font-size: 1.3em;
+   }
+
+   #services-title{
+      width: 30%;
+   }
+
+   #footer-ul li{
+      display: block;
+   }
+
+   body{
+      font-size: 0.85rem; 
+   }
+
+   footer{
+      font-size: 1.1em;
+   }
+   
+   footer h4{
+      font-size: 1.1em;
+   }   
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   #nav-ul li{
+      font-size: 1.1rem;
+   }
+   
+   .nav-h2{
+      font-size: 2em;
+   }
+
+   h3{
+      font-size: 1.5rem;
+   }
+
+   form{
+      width: 70%;
+   }
+}
+
+/***LARGE***/
+@media (min-width: 992px) {
+
+   #nav-ul{
+      width: 30%;
+   }
+
+   #nav-ul li{
+      display: inline-flex;
+      padding-right: 3%;
+   }
+
+   .nav-bar{
+      position: fixed;
+      top: 0;
+      z-index: 1;
+   }
+
+   .nav-bar{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .nav-banner{
+      background-position-x: center;
+      background-position-y: 45%;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+
+   .row{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+      width: 100%;
+   }
+   
+   .col{
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 0%;
+   }
+
+   .img-fluid{
+      width: 100%;
+   }
+
+   .main-about-content{
+      padding: 5%;
+   }
+
+   .service-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+   }
+
+   .service-box{
+      width: 30%;
+   }
+
+   .service-box h4{
+      font-size: 1.4em;
+   }
+
+   #services-title{
+      width: 30%;
+   }
+
+   #footer-ul li{
+      display: block;
+   }
+
+   body{
+      font-size: 0.9rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   #nav-ul li{
+      font-size: 1.1rem;
+   }
+   
+   .nav-h2{
+      font-size: 2em;
+   }
+
+   h3{
+      font-size: 2rem;
+   }
+
+   form{
+      width: 70%;
+   }
+}
+
+/***XTRA LARGE***/
+@media (min-width: 1050px) {
+
+   #nav-ul{
+      width: 30%;
+   }
+
+   #nav-ul li{
+      display: inline-flex;
+      padding-right: 3%;
+   }
+
+   .nav-bar{
+      position: fixed;
+      top: 0;
+      z-index: 1;
+   }
+
+   .nav-bar{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .nav-banner{
+      background-position-x: center;
+      background-position-y: 41.5%;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+
+   .row{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+      width: 100%;
+   }
+   
+   .col{
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 0%;
+   }
+
+   .img-fluid{
+      max-width: 100%;
+   }
+
+   .main-about-content{
+      padding: 5%;
+   }
+
+   .service-boxes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+   }
+
+   .service-box{
+      width: 30%;
+   }
+
+   #footer-ul li{
+      display: inline;
+   }
+
+   body{
+      font-size: 1rem; 
+   }
+
+   h1{
+      font-size: 1.6rem;
+   }
+
+   h2{
+      font-size: 3rem;
+   }
+
+   #nav-ul li{
+      font-size: 1.1rem;
+   }
+
+   .nav-h2{
+      font-size: 2em;
+   }
+
+   h3{
+      font-size: 2rem;
+   }
+   
+   form{
+      width: 60%;
+   }
+   
+}
+
