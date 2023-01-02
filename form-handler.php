@@ -2,7 +2,7 @@
 
    //Sanitization of the contact form user input.
 
-   $myemail = 'zankokuchu@gmail.com';
+   $myemail = ''; //EMAIL REDACTED
 
    $name = $_POST['name']; 
    $email_address = $_POST['email']; 
